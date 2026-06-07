@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lisa Corridor — Hardware Models</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#171a21; --border:#2a2f3a; --text:#e8eaed;
+    --muted:#9aa3b2; --accent:#7aa2ff;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--text); padding:40px 24px;
+  }
+  header{max-width:920px; margin:0 auto 32px;}
+  h1{font-size:28px; margin:0 0 6px;}
+  p.sub{color:var(--muted); margin:0;}
+  .grid{
+    max-width:920px; margin:0 auto; display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:18px;
+  }
+  .card{
+    background:var(--card); border:1px solid var(--border); border-radius:12px;
+    padding:20px; display:flex; flex-direction:column; gap:10px;
+  }
+  .card h2{font-size:17px; margin:0; word-break:break-word;}
+  .badge{
+    display:inline-block; font-size:11px; letter-spacing:.04em; text-transform:uppercase;
+    color:var(--accent); border:1px solid var(--accent); border-radius:999px;
+    padding:3px 10px; width:fit-content;
+  }
+  dl{margin:0; font-size:13px; color:var(--muted); display:grid; grid-template-columns:auto 1fr; gap:4px 10px;}
+  dt{font-weight:600; color:var(--text);}
+  a.dl{
+    margin-top:6px; font-size:13px; color:var(--accent); text-decoration:none;
+    border:1px solid var(--border); border-radius:8px; padding:8px 12px; text-align:center;
+  }
+  a.dl:hover{border-color:var(--accent);}
+  footer{max-width:920px; margin:32px auto 0; color:var(--muted); font-size:12px; line-height:1.5;}
+</style>
+</head>
+<body>
+  <header>
+    <h1>Lisa Corridor — Hardware Models</h1>
+    <p class="sub">STEP (.step) CAD files for the corridor wardrobe hardware components.</p>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <span class="badge">STEP AP214</span>
+      <h2>75T1550</h2>
+      <dl>
+        <dt>Internal no.</dt><dd>46555702</dd>
+        <dt>Authored in</dt><dd>SolidWorks 2022</dd>
+        <dt>File date</dt><dd>2024-05-08</dd>
+        <dt>Size</dt><dd>1.12 MB</dd>
+      </dl>
+      <a class="dl" href="step_work/productImages/ 75T1550_46555702.step" download>Download .step</a>
+    </div>
+
+    <div class="card">
+      <span class="badge">STEP AP214</span>
+      <h2>973A0500.01</h2>
+      <dl>
+        <dt>Internal no.</dt><dd>44552976</dd>
+        <dt>Authored in</dt><dd>SolidWorks 2022</dd>
+        <dt>File date</dt><dd>2024-05-07</dd>
+        <dt>Size</dt><dd>444 KB</dd>
+      </dl>
+      <a class="dl" href="step_work/productImages/973A0500.01_44552976.step" download>Download .step</a>
+    </div>
+
+    <div class="card">
+      <span class="badge">STEP AP214</span>
+      <h2>173H7100</h2>
+      <dl>
+        <dt>Internal no.</dt><dd>44226109</dd>
+        <dt>Authored in</dt><dd>SolidWorks 2025</dd>
+        <dt>File date</dt><dd>2025-09-01</dd>
+        <dt>Size</dt><dd>352 KB</dd>
+      </dl>
+      <a class="dl" href="step_work/productImages/173H7100_44226109.step" download>Download .step</a>
+    </div>
+  </div>
+
+  <footer>
+    Note: this page lists the model files and lets you download them — it does not render the 3D geometry in-browser
+    (that requires a CAD viewing engine such as the one used by ShareCAD.org or 3dviewer.net, where you can drag
+    these .step files in directly to inspect them in 3D).
+  </footer>
+</body>
+</html>
